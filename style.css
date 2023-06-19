@@ -60,7 +60,7 @@ margin: 0;
 .tweet-button {
 background-color: rgb(29, 155, 240);
 width: 90%;
-height: 30%;
+height: 55px;
 border-radius: 9999px;
 margin-top: 15px;
 cursor: pointer;
@@ -70,17 +70,13 @@ font-weight: 700;
 border: 1px solid black;
 transition-duration: 0.2s;
 }
-button{
-  padding-bottom:5px;
-  padding-top: 5px;
-}
 .tweet-button:hover{
 background-color: rgba(29, 155, 240, 0.9);
 }
 .main-account{
 width: 100%;
 height: 30%;
-padding-top: 100px;
+padding-top: 185px;
 }
 .main-account a{
 display: flex;
@@ -178,7 +174,7 @@ main{
 
 .new-tweet-details input{
   width: 100%;
-  height: 20px;
+  height: 24px;
   background-color: black;
   font-size: 2rem;
   border: none;
@@ -282,7 +278,7 @@ main{
   width: 100%;
   border: none;
   padding-left: 30px;
-  fomt-size: 1.5rem;
+  font-size: 1.5rem;
   color: white;
   line-height: 20px;
   font-weight: 400;
@@ -440,7 +436,7 @@ main{
 }
 
 
-@media  screen and (max-width: 1260px){
+@media screen and (max-width: 1260px){
 header{
   width: 10%;
   padding: 10px 0;
@@ -453,7 +449,7 @@ header span{
 }
 header .tweet-button{
   width: 55px;
-  border-radius: 50%;
+  border-radius: 50%
   font-size: 1.4rem;
 }
 header .main-account{

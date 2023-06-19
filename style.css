@@ -440,7 +440,7 @@ main{
 }
 
 
-@media  screen and (min-width: 768px){
+@media  screen and (max-width: 1260px){
 header{
   width: 10%;
   padding: 10px 0;
@@ -449,7 +449,7 @@ main{
   margin-left: 10%;
 }
 header span{
-  display: flex
+  display: none;
 }
 header .tweet-button{
   width: 55px;

@@ -76,7 +76,7 @@ background-color: rgba(29, 155, 240, 0.9);
 .main-account{
 width: 100%;
 height: 30%;
-padding-top: 85px;
+padding-top: 58px;
 }
 .main-account a{
 display: flex;
@@ -436,7 +436,7 @@ main{
 }
 
 
-@media screen and (max-width: 251px){
+@media screen and (max-width: 900px){
 header{
   width: 10%;
   padding: 10px 0;
@@ -448,9 +448,11 @@ header span{
   display: none;
 }
 header .tweet-button{
-  width: 55px;
-  border-radius: 50%
-  font-size: 1.4rem;
+  width: 40px;
+  border-radius: 10%;
+  font-size: 1.3rem;
+  margin-top: 55px;
+  margin-left: 10px;
 }
 header .main-account{
   display: flex;
